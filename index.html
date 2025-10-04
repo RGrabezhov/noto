@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NŌTO — Coming Soon</title>
+  <meta name="description" content="NŌTO — coming soon" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Avenir+Next:wght@700&display=swap');
+
+    html,body {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #002FA7; /* Klein Blue */
+      font-family: 'Avenir Next', Arial, Helvetica, sans-serif;
+      flex-direction: column;
+      color: white;
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+    h1 {
+      font-size: 180px;
+      margin: 0;
+      letter-spacing: 6px;
+      font-weight: 700;
+      animation: slideUp 2s ease-out, pulse 3s ease-in-out infinite;
+    }
+    p {
+      font-size: 28px;
+      margin: 20px 0 0;
+      animation: fadeIn 3s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideUp {
+      from { transform: translateY(40px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <h1>NŌTO</h1>
+  <p>coming soon...</p>
+</body>
+</html>
